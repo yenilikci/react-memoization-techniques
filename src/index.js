@@ -4,12 +4,13 @@ import './index.css';
 import App from './App';
 import Exercise1 from "./Exercise1";
 import reportWebVitals from './reportWebVitals';
+import Exercise2 from "./Exercise2";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Exercise1 />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <React.StrictMode>
+        <Exercise2/>
+    </React.StrictMode>,
+    document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
