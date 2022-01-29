@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import Exercise1 from "./Exercise1";
 import reportWebVitals from './reportWebVitals';
-import Exercise2 from "./Exercise2";
+import Exercise3 from "./Exercise3";
 
 ReactDOM.render(
     <React.StrictMode>
-        <Exercise2/>
+        <Exercise3/>
     </React.StrictMode>,
     document.getElementById('root')
 );
